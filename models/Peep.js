@@ -7,6 +7,10 @@ function Peep(sequelize) {
       allowNull: false
     },
     lastName: {
+      type: DataTypes.STRING,
+      allowNull: false
+    },
+    image: {
       type: DataTypes.STRING
     }
   });
