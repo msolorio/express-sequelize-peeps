@@ -10,7 +10,7 @@ function Peep(sequelize) {
       type: DataTypes.STRING,
       allowNull: false
     },
-    image: {
+    imageUrl: {
       type: DataTypes.STRING
     }
   });
